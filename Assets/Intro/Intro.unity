@@ -339,10 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7d9b69dc59ed84992b83dd8ab8df16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  IntroAnim: {fileID: 0}
-  waitToTween: 2.5
-  isTweenEnabled: 0
+  mainCamera: {fileID: 1710056697}
 --- !u!4 &1229139909
 Transform:
   m_ObjectHideFlags: 0
@@ -390,8 +387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0, g: 0, b: 0, a: 0.019607844}
   color2: {r: 0.29803923, g: 0.8784314, b: 0.84705883, a: 0.019607844}
-  rate: 0.1
-  isTweenEnabled: 0
+  rate: 0.12
+  waitToTween: 1.5
 --- !u!81 &1710056696
 AudioListener:
   m_ObjectHideFlags: 0

@@ -5,9 +5,7 @@ using UnityEngine;
 public class SceneManagerIntro : MonoBehaviour {
 
 	public Camera mainCamera;
-	public Animator IntroAnim;
-	public float waitToTween = 1.0f;
-	public bool isTweenEnabled = false;
+
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +19,7 @@ public class SceneManagerIntro : MonoBehaviour {
 
 	IEnumerator InitTween(){
 
-		yield return new WaitForSeconds(waitToTween);
-		isTweenEnabled = true;
+		yield return new WaitForSeconds(1.9f);
+
 	}
 }
